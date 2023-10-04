@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Gabarito", cursive;
+  color: rgb(11, 202, 53);
+}
+header,
+main {
+  padding: 16;
+}
+
+ .header {
+  text-align: center;
+  background-color: azure;
+  padding: 48 16;
+}
+.main { 
+    max-width: 800;
+    margin: 0; auto
+}

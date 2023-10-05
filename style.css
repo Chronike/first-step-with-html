@@ -20,7 +20,7 @@ h3 {
 
 .header {
   text-align: center;
-  background-color: bisque;
+  background-color: lightskyblue;
   padding: 48px 16px;
 }
 
@@ -30,6 +30,39 @@ h3 {
   padding: 16px;
 }
 
-.nolist {
+article {
+  padding-bottom: 18px;
+}
+
+.navlist,
+li {
+  padding: 8px 4px;
+  color: black;
   list-style-type: none;
+}
+
+.navlist:visited {
+  color: lightcoral;
+}
+
+.navlist:hover {
+  color: black;
+  background-color: none;
+}
+
+.navlist:active {
+  color: white;
+  background-color: lightgray;
+}
+
+.main > article + article {
+  border-top: 1px solid black;
+}
+
+.main > article {
+  border-top: 1px solid black;
+}
+
+.main > *:first-child {
+  border-top: none;
 }

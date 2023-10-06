@@ -4,6 +4,11 @@
   font-size: 20px;
 }
 
+::selection {
+  background-color: lightgray;
+  color: darkgreen;
+}
+
 body {
   margin: 0px;
 }
@@ -73,4 +78,8 @@ article {
 
 .main > *:first-child {
   border-top: none;
+}
+
+.Beruf::after {
+  content: "💼";
 }

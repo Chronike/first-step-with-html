@@ -4,6 +4,10 @@
   font-size: 20px;
 }
 
+html {
+  font-family: inherit;
+}
+
 ::selection {
   background-color: lightgray;
   color: darkgreen;

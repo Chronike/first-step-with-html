@@ -87,3 +87,11 @@ article {
 .Beruf::after {
   content: "💼";
 }
+
+.beruf-überschrift {
+  display: inline-block;
+}
+
+.beruf-unterüberschrift {
+  display: inline-block;
+}

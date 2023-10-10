@@ -65,13 +65,11 @@ article {
   padding-bottom: none;
 }
 
-.navlist,
-.li-style {
+.navlist {
   padding: 0.8rem 0.4rem;
   color: black;
   list-style-type: none;
   position: relative;
-  right: 0.7rem;
 }
 
 .navlist:visited {

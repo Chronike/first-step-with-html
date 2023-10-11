@@ -173,7 +173,8 @@ h3 {
 }
 
 @media print {
-  .hireme {
+  .hireme,
+  .flexgation {
     display: none;
   }
 }

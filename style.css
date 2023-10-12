@@ -50,7 +50,7 @@ h3 {
 .header {
   text-align: center;
   background-color: var(--header-blue);
-  background-image: linear-gradient(var(--header-white), var(--header-blue));
+  background-image: linear-gradient(var(--header-blue), var(--header-white));
   padding: 2.5rem 0.8rem;
   position: relative;
 }
@@ -104,11 +104,11 @@ h3 {
 }
 
 .main > article + article {
-  border-top: 0.1rem solid var(--header-black);
+  border-top: 0.1rem solid var(--header-blue);
 }
 
 .main > article {
-  border-top: 0.1rem solid var(--header-black);
+  border-top: 0.1rem solid var(--header-blue);
 }
 
 .main > *:first-child {
@@ -119,13 +119,13 @@ h3 {
   content: "💼";
 }
 
-.beruf-überschrift {
+/*.beruf-überschrift {
   display: inline-block;
 }
 
 .beruf-unterüberschrift {
   display: inline-block;
-}
+}*/
 
 .experience-header {
   display: flex;
@@ -162,7 +162,7 @@ h3 {
 
 .footer {
   text-align: center;
-  background-image: linear-gradient(var(--header-blue), var(--header-white));
+  background-image: linear-gradient(var(--header-white), var(--header-blue));
   padding: 0.5rem 0.8rem;
   position: relative;
 }

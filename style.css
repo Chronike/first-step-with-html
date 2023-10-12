@@ -88,6 +88,7 @@ h3 {
   color: var(--header-black);
   list-style-type: none;
   position: relative;
+  transition: background-color 0ms linear;
 }
 
 .navlist:visited {
@@ -95,11 +96,15 @@ h3 {
 }
 
 .navlist:hover {
-  color: var(--header-black);
+  background-color: var(--active);
 }
 
 .navlist:active {
   color: var(--header-white);
+  background-color: var(--active);
+}
+
+.navlist:focus {
   background-color: var(--active);
 }
 

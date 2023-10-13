@@ -151,29 +151,23 @@ h3 {
 .hireme {
   position: fixed;
   right: 2rem;
-  top: 3rem;
+  top: 1rem;
   color: var(--header-blue);
   background-color: var(--header-black);
-  padding-top: 0.8rem;
-  padding-bottom: 0.8rem;
-  padding-left: 0.8rem;
-  padding-right: 0.8rem;
-}
-
-body:hover .hireme {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
   transition: 0.3s linear;
+  opacity: 0.5;
 }
-
-header .hireme:hover {
-  transform: scale(2);
+.header:hover .hireme {
+  opacity: 1;
+  transform: scale(1.4);
   transform-origin: right;
 }
 
-.header:focus-within,
-.hireme {
+.header:focus-within .hireme {
   transform: scale(1.5);
 }
-
 .maincontent {
   max-width: 60ch;
   position: relative;
@@ -199,8 +193,7 @@ header .hireme:hover {
     font-size: 22px;
   }
 }
-
-@media screen and (max-width: 992px) {
+@media screen and (min-width: 992px) {
   .hireme {
     position: fixed;
   }

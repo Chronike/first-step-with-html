@@ -149,14 +149,23 @@ h3 {
 
 .hireme {
   position: fixed;
-  right: 1rem;
-  top: 1rem;
+  right: 2rem;
+  top: 3rem;
   color: var(--header-blue);
   background-color: var(--header-black);
   padding-top: 0.8rem;
   padding-bottom: 0.8rem;
   padding-left: 0.8rem;
   padding-right: 0.8rem;
+}
+header .hireme:hover {
+  transform: scale(2);
+  transform-origin: right;
+}
+
+.header:focus-within,
+.hireme {
+  transform: scale(1.5);
 }
 
 .maincontent {

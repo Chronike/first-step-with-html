@@ -97,6 +97,7 @@ h3 {
 
 .navlist:hover {
   background-color: var(--active);
+  border-radius: 0.4rem;
 }
 
 .navlist:active {

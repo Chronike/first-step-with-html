@@ -88,7 +88,7 @@ h3 {
   color: var(--header-black);
   list-style-type: none;
   position: relative;
-  transition: background-color 0ms linear;
+  transition: background-color 0.3s linear;
 }
 
 .navlist:visited {
@@ -158,6 +158,11 @@ h3 {
   padding-left: 0.8rem;
   padding-right: 0.8rem;
 }
+
+body:hover .hireme {
+  transition: 0.3s linear;
+}
+
 header .hireme:hover {
   transform: scale(2);
   transform-origin: right;

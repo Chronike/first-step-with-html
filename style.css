@@ -7,7 +7,7 @@
 
 html {
   font-family: inherit;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 ::selection {
@@ -57,7 +57,7 @@ h3 {
 
 .headinggroup {
   font-size: 4rem;
-  -position: relative;
+  position: relative;
   right: 0.2rem;
 }
 
@@ -131,11 +131,7 @@ h3 {
 }
 .experience-heading {
   display: inline-block;
-  padding-right: 2rem;
-}
-
-.sub-heading {
-  margin-top: 2rem;
+  padding-right: 1rem;
 }
 
 .hireme {
@@ -166,24 +162,20 @@ h3 {
   position: relative;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-}
 .content {
-  margin-top: 4rem;
+  margin-top: 1rem;
 }
 
 /*Media*/
 @media screen and (min-width: 992px) {
   html {
-    font-size: 22px;
+    font-size: 16px;
   }
 }
 
 @media screen and (min-width: 786px) {
   html {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 @media screen and (min-width: 992px) {
@@ -201,7 +193,7 @@ h3 {
 
 @media screen and (min-width: 768px) {
   .main > * + * {
-    margin-top: 1.5rem;
+    margin-top: 0rem;
   }
 }
 
@@ -225,5 +217,12 @@ h3 {
   body {
     --header-black: black;
     --header-white: white;
+  }
+}
+
+@media screen and (min-width: 786px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
   }
 }
